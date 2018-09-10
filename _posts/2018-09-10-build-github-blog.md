@@ -1,1 +1,6 @@
-# 彭小明
+---
+layout:   post
+title: "life is ..."
+tags: 
+     - 生活
+---
