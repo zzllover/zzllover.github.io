@@ -1,6 +1,6 @@
 # Site settings
 title: 彭西明
-SEOTitle: dog ming | pig pig
+SEOTitle: dog dog ming | pig pig lian
 header-img: img/home-bg.jpg
 email: 294407816@qq.com
 description: ""
@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-about-description: "python机器学习，C/C++算法，Java，javascript,matlab等等知识学习"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -85,11 +85,11 @@ friends: [
         title: "CSDN Blog",
         href: "https://blog.csdn.net/sinat_33472635"
     },{
-        title: "Foo",
-        href: "#"
+        title: "Morvan python",
+        href: "https://morvanzhou.github.io/"
     },{
-        title: "Bar",
-        href: "#"
+        title: "廖雪峰 git",
+        href: "https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"
     },{
         title: "Example Friends",
         href: "#"
