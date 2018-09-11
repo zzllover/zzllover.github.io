@@ -8,7 +8,9 @@ header-img: "img/dla1.jpg"
 tags:
     - 生活
     - 文章
----　
+---
+
+# 文章摘录
 
 What you do every day is already important because you are exchanging a day of your life for it. But today, I dare you to take it up a notch, pump some extra life into every hour, and really make your time count. 　　
 每天你做了什么其实很重要，因为你在用生命中的一天与它做交换。但在今天，我鼓励你提高自己的标准，在每一小时里加入更多的生活元素，让你的时间真正过得有意义。 　　
@@ -21,7 +23,8 @@ Ordinary people worry today and postpone their happiness for tomorrow. Intellige
 2. Be imperfect. 　　
 2. 不求完美 　　
 Something that is really difficult, but totally worth it, is giving up on being perfect and beginning the journey of becoming your true self. The most beautiful part of this journey is simply returning to the peaceful feeling of being. This peace is the result of retraining your mind to process life as it is, rather than as you think it should be. 　　
-放弃追求完美，这是一件很难做到但完全值得做的事情，开始一段做真实自我的旅程。这段旅行最美丽的那部分，是拥有那份做自己时的心灵宁静。宁静源于重塑了你的思维，接受现状，而不是你认为的生活应该是怎么样。 　　3. Be enthusiastic about what you’re doing. 　　
+放弃追求完美，这是一件很难做到但完全值得做的事情，开始一段做真实自我的旅程。这段旅行最美丽的那部分，是拥有那份做自己时的心灵宁静。宁静源于重塑了你的思维，接受现状，而不是你认为的生活应该是怎么样。 　　
+3. Be enthusiastic about what you’re doing. 　　
 3. 对你在做的事热情满满 　　
 You’re not given a good life or a bad life. You’re given life, and it’s up to you to make it good or bad. So wake up and get motivated; not everybody made it to today. Don’t take your time for granted. Don’t waste time thinking back to what you could have done differently yesterday. Keep your eyes on the road ahead and do it differently today. Wherever the road takes you, bring your passion. Whatever you do along the way, do it with all your heart. 　　
 没人注定就会过好生活或是过坏生活。生活或好或坏，是由你来决定的。所以每天醒来时，记得给自己动力。不要随意挥霍你的时间。不要浪费时间去想，若是回到昨天你就可以做得更好。看清眼前的路，今天就做到与众不同。无论去往何处，请带着你的热情;无论你要去做什么，请全力以赴。 　　
