@@ -4,7 +4,7 @@ title:      "翻译练习"
 subtitle:   "I am a cute girl"
 date:       2018-09-21 20:00:00
 author:     "曾紫莲"
-header-img: "img/timg.jpg"
+header-img: "img/mc/mc1.jpg"
 tags:
     - tans
 ---
@@ -21,7 +21,7 @@ tags:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Xi and Putin held talks and agreed to promote bilateral ties, and safeguard world peace and stability.
 
-During their discussions Xi said China and Russia should deepen cooperation on projects related to the Belt and Road initiative and with the Eurasian Economic Union, focus on energy, agriculture, high-tech and finance.
+&nbsp;&nbsp;&nbsp;&nbsp;During their discussions Xi said China and Russia should deepen cooperation on projects related to the Belt and Road initiative and with the Eurasian Economic Union, focus on energy, agriculture, high-tech and finance.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Trade between Russia and China reached $87 billion in 2017, and will most likely exceed $100 billion this year, said Putin, adding that the two countries have established trust-based relations on political, security and defense matters, according to kremlin.ru.
 
