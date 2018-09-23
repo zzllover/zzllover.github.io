@@ -62,5 +62,4 @@ The achievement showed how much PLA pilots had invested in their training, he sa
 
 &emsp;&emsp;宋忠平称，与其他拥有航母，经数年技术测试的国家相比，中国仅用了短短几年的时间。
 
-&emsp;&emsp;他称，这一成就彰显了中国人民解放军飞行员英勇奉献的精神。
-
+&emsp;&emsp;他称，中国人民解放军飞行员在这一成就的取得中投入甚多。
