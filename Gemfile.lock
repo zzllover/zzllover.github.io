@@ -67,6 +67,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-paginate
+  rouge
 
 BUNDLED WITH
    2.4.16
