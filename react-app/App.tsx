@@ -1,9 +1,13 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import Naruto from "@assets/naruto.gif"
 const App = () => {
   return (
     <div>
       简单一个layout
+      <div>
+        <img src={Naruto} />
+      </div>
       <div>
         <div>
           <Link to={"/test"}>test</Link>

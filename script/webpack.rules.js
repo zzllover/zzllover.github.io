@@ -45,7 +45,12 @@ module.exports = [
     test: /\.(gif|jpe?g|tiff|png|webp|bmp|svg|eot|ttf|woff|woff2)$/i,
     type: 'asset',
     generator: {
-      filename: 'assets/[hash][ext][query]',
+      filename: 'assets/[name][ext][query]', // 保持文件的名字，就可以不移动文件，直接引用到原文件
+    },
+    parser: {
+      dataUrlCondition: {
+        maxSize: 10000,
+      },
     },
   },
 ];
