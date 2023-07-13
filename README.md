@@ -20,4 +20,5 @@
 接入ReactJS
 - [x] 支持编写React界面
 - [x] 完善开发脚本
-- [ ] 支持React Router
+- [x] 支持React Router
+- [ ] 创建reveal.js的layout & 支持ppt review

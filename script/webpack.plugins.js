@@ -10,7 +10,7 @@ module.exports = [
   inDev() && new webpack.HotModuleReplacementPlugin(),
   inDev() && new ReactRefreshWebpackPlugin(),
   new HtmlWebpackPlugin({
-    template: '_layouts/empty-react-tpl.html',
+    template: inDev() ? 'react-app/index-tpl.html' : '_layouts/empty-react-tpl.html',
     inject: true,
   }),
   new MiniCssExtractPlugin({
