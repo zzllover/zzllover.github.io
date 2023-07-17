@@ -33,7 +33,8 @@ exclude: [
     "react-app", 
     "pnpm-lock.yaml", 
     "script",
-    "tsconfig.json"
+    "tsconfig.json",
+    "tailwind.config.js",
 ]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
