@@ -2,18 +2,11 @@
 import React, { Suspense, lazy } from "react";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import BaseLayout from "./layouts/BaseLayout";
+import PageLoading from "./components/Loading";
 
-const RNG = lazy(() => import("./pages/RNG"));
-const RNG1 = lazy(() => import("./pages/RNG1"));
-const RNG2 = lazy(() => import("./pages/RNG2"));
-const RNG3 = lazy(() => import("./pages/RNG3"));
-const RNG4 = lazy(() => import("./pages/RNG4"));
-const RNG5 = lazy(() => import("./pages/RNG5"));
-const RNG6 = lazy(() => import("./pages/RNG6"));
-const RNG7 = lazy(() => import("./pages/RNG7"));
-const RNG8 = lazy(() => import("./pages/RNG8"));
-const RNG9 = lazy(() => import("./pages/RNG9"));
-const RNG10 = lazy(() => import("./pages/RNG10"));
+const List = lazy(() => import("./pages/List"));
+const Detail = lazy(() => import("./pages/Detail"));
+
 
 const router = createHashRouter([
   {
@@ -23,47 +16,11 @@ const router = createHashRouter([
     children: [
       {
         path: "/",
-        element: <RNG />,
+        element: <List />,
       },
       {
-        path: "test1",
-        element: <RNG1 />,
-      },
-      {
-        path: "test2",
-        element: <RNG2 />,
-      },
-      {
-        path: "test3",
-        element: <RNG3 />,
-      },
-      {
-        path: "test4",
-        element: <RNG4 />,
-      },
-      {
-        path: "test5",
-        element: <RNG5 />,
-      },
-      {
-        path: "test6",
-        element: <RNG6 />,
-      },
-      {
-        path: "test7",
-        element: <RNG7 />,
-      },
-      {
-        path: "test8",
-        element: <RNG8 />,
-      },
-      {
-        path: "test9",
-        element: <RNG9 />,
-      },
-      {
-        path: "test10",
-        element: <RNG10 />,
+        path: "detail",
+        element: <Detail />,
       },
     ],
   },
@@ -75,7 +32,7 @@ const router = createHashRouter([
 ]);
 
 const App = () => (
-  <Suspense fallback={"...."}>
+  <Suspense fallback={<PageLoading />}>
     <RouterProvider router={router} />
   </Suspense>
 );

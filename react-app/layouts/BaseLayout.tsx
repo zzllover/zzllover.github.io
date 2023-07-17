@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const BaseLayout = () => {
   return (
-    <div>
+    <div className="h-screen w-full static  bg-slate-50  flex flex-col overflow-hidden">
       <Navbar />
       <Outlet />
     </div>
