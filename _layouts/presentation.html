@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>reveal.js – The HTML Presentation Framework</title>
-
+    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
 
@@ -16,7 +14,7 @@
 
     <link rel="stylesheet" href="/js/reveal/output/reset.css">
     <link rel="stylesheet" href="/js/reveal/output/reveal.css">
-    <link rel="stylesheet" href="/js/reveal/output/theme/black.css" id="theme">
+    <link rel="stylesheet" href="/js/reveal/output/theme/solarized.css" id="theme">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="/js/reveal/plugin/highlight/monokai.css">
