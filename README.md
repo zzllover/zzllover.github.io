@@ -22,4 +22,7 @@
 - [x] 完善开发脚本
 - [x] 支持React Router
 - [ ] 开发一个用于健身计时的节拍器，在react-app中进行开发
-- [ ] 创建reveal.js的layout & 支持ppt review
+- [x] 创建reveal.js的layout & 支持ppt review
+
+克隆一个网站
+- [] 参考：https://neal.fun/spend/
