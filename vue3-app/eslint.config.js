@@ -1,5 +1,5 @@
 // eslint.config.js
-import antfu from '@antfu/eslint-config'
+import antfu from '@antfu/eslint-config';
 
 export default antfu(
   { // Or customize the stylistic rules
@@ -8,6 +8,7 @@ export default antfu(
     stylistic: {
       indent: 2, // 4, or 'tab'
       quotes: 'single', // or 'double'
+      semi: true,
     },
     formatters: {
       css: true,
@@ -20,6 +21,10 @@ export default antfu(
     files: ['**/*.vue'],
     rules: {
       'vue/operator-linebreak': ['error', 'before'],
+      'vue/multiline-html-element-content-newline': ['error', {
+        ignoreWhenEmpty: true,
+        allowEmptyLines: false,
+      }],
     },
   },
-)
+);
