@@ -1,17 +1,19 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
+// import Part1 from './components/Part1.vue';
+// import Part2 from './components/Part2.vue';
+// import Part3 from './components/Part3.vue';
+// import Part4 from './components/Part4.vue';
+// import Part5 from './components/Part5.vue';
+import { ref } from 'vue';
+import Part6 from './components/Part6.vue';
+import Part7 from './components/Part7.vue';
+import Part8 from './components/Part8.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo">
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo">
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
