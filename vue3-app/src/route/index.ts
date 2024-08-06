@@ -1,10 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Part1 from '../components/Part1.vue';
-import HelloWorld from '../components/HelloWorld.vue';
+import Part2 from '../components/Part2.vue';
 
 const routes = [
-  { path: '/', component: HelloWorld },
-  { path: '/part1', component: Part1 },
+  { path: '/', component: Part1 },
+  { path: '/part2', component: Part2 },
 ];
 
 const router = createRouter({
