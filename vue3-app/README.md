@@ -33,3 +33,6 @@ add .vscode/settings.json
   ]
 }
 ```
+
+Node 版本
+version "^18.18.0 || ^20.9.0 || >=21.1.0". Got "16.14.2"

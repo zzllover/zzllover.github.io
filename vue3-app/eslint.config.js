@@ -26,5 +26,6 @@ export default antfu(
         allowEmptyLines: false,
       }],
     },
+    plugins: ['vue/base', 'vuetify/base'],
   },
 );

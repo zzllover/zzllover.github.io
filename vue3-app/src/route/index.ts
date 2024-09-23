@@ -1,9 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Part1 from '../components/Part1.vue';
 import Part2 from '../components/Part2.vue';
+import HomePage from '../page/homepage/index.vue';
 
 const routes = [
-  { path: '/', component: Part1 },
+  { path: '/', component: HomePage },
   { path: '/part2', component: Part2 },
 ];
 

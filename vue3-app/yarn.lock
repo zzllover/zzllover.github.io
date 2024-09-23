@@ -709,6 +709,13 @@
   resolved "https://npm.shopee.io/@vue%2fshared/-/shared-3.4.29.tgz#84908c284e88a269f8bceee59707b14eb4b2d284"
   integrity sha512-hQ2gAQcBO/CDpC82DCrinJNgOHI2v+FA7BDW4lMSPeBpQ7sRe2OLHWe5cph1s7D8DUQAwRt18dBDfJJ220APEA==
 
+"@vuetify/loader-shared@^2.0.3":
+  version "2.0.3"
+  resolved "https://npm.shopee.io/@vuetify%2floader-shared/-/loader-shared-2.0.3.tgz#11451c717e4a352ec311da52a79c857cd256c92f"
+  integrity sha512-Ss3GC7eJYkp2SF6xVzsT7FAruEmdihmn4OCk2+UocREerlXKWgOKKzTN5PN3ZVN5q05jHHrsNhTuWbhN61Bpdg==
+  dependencies:
+    upath "^2.0.1"
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://npm.shopee.io/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -966,6 +973,13 @@ debug@^4.0.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   integrity sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==
   dependencies:
     ms "2.1.2"
+
+debug@^4.3.3:
+  version "4.3.7"
+  resolved "https://npm.shopee.io/debug/-/debug-4.3.7.tgz#87945b4151a011d76d95a198d7111c865c360a52"
+  integrity sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==
+  dependencies:
+    ms "^2.1.3"
 
 deep-is@^0.1.3:
   version "0.1.4"
@@ -1302,6 +1316,28 @@ eslint-plugin-vue@^9.26.0:
     semver "^7.6.0"
     vue-eslint-parser "^9.4.2"
     xml-name-validator "^4.0.0"
+
+eslint-plugin-vue@^9.6.0:
+  version "9.28.0"
+  resolved "https://npm.shopee.io/eslint-plugin-vue/-/eslint-plugin-vue-9.28.0.tgz#e4412f0c1024bafd15ffeaa6f76f4c99152e2765"
+  integrity sha512-ShrihdjIhOTxs+MfWun6oJWuk+g/LAhN+CiuOl/jjkG3l0F2AuK5NMTaWqyvBgkFtpYmyks6P4603mLmhNJW8g==
+  dependencies:
+    "@eslint-community/eslint-utils" "^4.4.0"
+    globals "^13.24.0"
+    natural-compare "^1.4.0"
+    nth-check "^2.1.1"
+    postcss-selector-parser "^6.0.15"
+    semver "^7.6.3"
+    vue-eslint-parser "^9.4.3"
+    xml-name-validator "^4.0.0"
+
+eslint-plugin-vuetify@^2.4.0:
+  version "2.4.0"
+  resolved "https://npm.shopee.io/eslint-plugin-vuetify/-/eslint-plugin-vuetify-2.4.0.tgz#ed1b9767df07184e19af972f4c4da3734ebc60fe"
+  integrity sha512-WAZjnGXPrxqHBzYjxxUT8jf30O69Hitmj+wYhTIEG/XgqfvnPwqVtqrU2FGLsDtfFskKva0vuZemfbiq8yA/fQ==
+  dependencies:
+    eslint-plugin-vue "^9.6.0"
+    requireindex "^1.2.0"
 
 eslint-plugin-yml@^1.14.0:
   version "1.14.0"
@@ -1920,7 +1956,7 @@ ms@2.1.2:
   resolved "https://npm.shopee.io/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-ms@^2.1.1:
+ms@^2.1.1, ms@^2.1.3:
   version "2.1.3"
   resolved "https://npm.shopee.io/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
@@ -2219,6 +2255,11 @@ require-directory@^2.1.1:
   resolved "https://npm.shopee.io/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
 
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://npm.shopee.io/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://npm.shopee.io/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -2293,6 +2334,11 @@ semver@^7.3.5, semver@^7.3.6, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semve
   version "7.6.2"
   resolved "https://npm.shopee.io/semver/-/semver-7.6.2.tgz#1e3b34759f896e8f14d6134732ce798aeb0c6e13"
   integrity sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==
+
+semver@^7.6.3:
+  version "7.6.3"
+  resolved "https://npm.shopee.io/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
+  integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
 
 shebang-command@^2.0.0:
   version "2.0.0"
@@ -2505,6 +2551,11 @@ unist-util-stringify-position@^2.0.0:
   dependencies:
     "@types/unist" "^2.0.2"
 
+upath@^2.0.1:
+  version "2.0.1"
+  resolved "https://npm.shopee.io/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
+  integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
+
 update-browserslist-db@^1.0.16:
   version "1.0.16"
   resolved "https://npm.shopee.io/update-browserslist-db/-/update-browserslist-db-1.0.16.tgz#f6d489ed90fb2f07d67784eb3f53d7891f736356"
@@ -2532,6 +2583,15 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vite-plugin-vuetify@^2.0.4:
+  version "2.0.4"
+  resolved "https://npm.shopee.io/vite-plugin-vuetify/-/vite-plugin-vuetify-2.0.4.tgz#9beb700ee50da58d83399721d6cf4b0af83202d5"
+  integrity sha512-A4cliYUoP/u4AWSRVRvAPKgpgR987Pss7LpFa7s1GvOe8WjgDq92Rt3eVXrvgxGCWvZsPKziVqfHHdCMqeDhfw==
+  dependencies:
+    "@vuetify/loader-shared" "^2.0.3"
+    debug "^4.3.3"
+    upath "^2.0.1"
 
 vite@^5.2.0:
   version "5.3.1"
@@ -2596,6 +2656,11 @@ vue@^3.4.21:
     "@vue/runtime-dom" "3.4.29"
     "@vue/server-renderer" "3.4.29"
     "@vue/shared" "3.4.29"
+
+vuetify@^3.7.2:
+  version "3.7.2"
+  resolved "https://npm.shopee.io/vuetify/-/vuetify-3.7.2.tgz#e37fa4c191ea00144de5943315cbf77ddb80448d"
+  integrity sha512-q0WTcRG977+a9Dqhb8TOaPm+Xmvj0oVhnBJhAdHWFSov3HhHTTxlH2nXP/GBTXZuuMHDbBeIWFuUR2/1Fx0PPw==
 
 which@^2.0.1:
   version "2.0.2"

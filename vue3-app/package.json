@@ -11,14 +11,17 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
     "vue": "^3.4.21",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.0",
+    "vuetify": "^3.7.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.1",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^9.5.0",
     "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-vuetify": "^2.4.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"
