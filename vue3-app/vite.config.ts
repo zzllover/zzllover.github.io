@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
   else {
     return {
       // build 独有配置
-      base: 'https://liudingliujia.cn/statics/vue3-app/',
+      base: 'https://liudingliujia.cn/statics/dist/',
       ...config,
     };
   }
