@@ -13,11 +13,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
-    new WorkboxWebpackPlugin.InjectManifest({
+    process.env['NODE_ENV'] === 'production' &&  new WorkboxWebpackPlugin.InjectManifest({
       swSrc: './sw.js',
       swDest: 'sw.js',
     }),
-  ],
+  ].filter(Boolean),
   resolve: {
     modules: [__dirname, "src", "node_modules"],
     extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],

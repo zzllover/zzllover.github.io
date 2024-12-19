@@ -9,14 +9,7 @@ const List = () => {
       {data.map((v) => {
         return (
           <div key={v} className="flex p-2 bg-white shadow-lg rounded-lg mb-3">
-            222
-          </div>
-        );
-      })}
-      {data.map((v) => {
-        return (
-          <div key={v} className="flex p-2 bg-white shadow-lg rounded-lg mb-3">
-            222
+            22233
           </div>
         );
       })}

@@ -13,7 +13,7 @@ root.render(
 );
 
 document.addEventListener('DOMContentLoaded', async () => {
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && process.env['NODE_ENV'] === 'production') {
   const wb = new Workbox('/sw.js');
 
   // 当新的 Service Worker 进入 waiting 状态时触发
